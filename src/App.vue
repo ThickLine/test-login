@@ -31,10 +31,10 @@
 
       <div class="h-screen grid grid-cols-1 h-full">
         <!-- Small screen hero -->
-        <div class="block md:hidden hero-cover">
+        <div class="block md:hidden hero-cover flex justify-center">
           <img src="https://images.unsplash.com/photo-1493946740644-2d8a1f1a6aff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80"
                alt="cover">
-          <div class="absolute h-full w-full flex flex-col justify-center items-center px-5 text-center z-10">
+          <div class="h-full w-full flex flex-col justify-center items-center px-5 container text-center z-10 my-5">
             <Logo width="210" />
             <div class="my-4"></div>
             <h1 class="text-xxs font-bold text-white">
